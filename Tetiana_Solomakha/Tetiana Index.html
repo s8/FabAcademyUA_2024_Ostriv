@@ -167,13 +167,23 @@
 <style>
   table {
     width: 100%;
-    border-collapse: collapse;
-    table-layout: auto;
+    table-layout: fixed;
   }
   th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
+  }
+  .col1 {
+    width: 15%;
+   
+  } 
+
+.col2 {
+    width: 20%;
+  }
+.col3 {
+    width: 40%;
   }
 </style>
 </head>
@@ -181,9 +191,9 @@
 
 <table>
  <tr>
-        <th>namber</th>
-        <th>name</th>
-        <th>for what</th>
+        <th class="col1">namber</th>
+        <th class="col2">name</th>
+        <th class="col3">for what</th>
         <th>coments</th>
     </tr>
    <tr>
